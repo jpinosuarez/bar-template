@@ -1,9 +1,10 @@
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: 'Quicksand', sans-serif; }
 
 header {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/img/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/img/hero.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,5 +19,25 @@ header {
     bottom: 0;
     right: 0;
     width: 200px; }
-  header #img-main {
-    border-radius: 10px; }
+
+.main-section {
+  margin: 50px; }
+  .main-section #main-datos {
+    font-weight: 400; }
+    .main-section #main-datos h2 {
+      font-size: 1.2em; }
+  .main-section .rrss {
+    width: 32px;
+    margin: 5px 10px; }
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 30%;
+  position: relative;
+  height: 0; }
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute; }
